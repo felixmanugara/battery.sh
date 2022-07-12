@@ -4,6 +4,21 @@
 choose the threshold which available in 3 modes, maximum lifespan, balance 
 mode and full capacity mode.
 
-./battery.sh
+## 1. Full Mode
+      will charges the battery to full capacity this is
+      the best option for you who always working in mobile
 
-this script is running by modifying tlp.conf battery threshold value 
+## 2. Balanced Mode
+      will charges the battery to 80% capacity
+      balancing between battery life and battery 
+      lifespan, best option if you occasionally work in
+      mobile
+
+## 3. Maximum Lifespan Mode
+      will charges the battery to 60% capacity
+      good for extending battery lifespan, choose this option
+      if you always running your laptop on AC power
+
+run `./battery.sh` and you can choose one of the options above
+
+this script is running by modifying battery charge threshold value in tlp.conf 
