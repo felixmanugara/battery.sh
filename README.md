@@ -11,7 +11,8 @@ mode and full capacity mode.
 for Ubuntu:
 ```$ sudo add-apt-repository ppa:linrunner/tlp
    $ sudo apt update
-   $ sudo apt install tlp tlp-rdw```
+   $ sudo apt install tlp tlp-rdw
+```
 
 
 ### 1. Full Mode
